@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Light.eot');
+    src: local('☺'),
+    url('../fonts/Lato/Lato-Light.woff') format('woff'),
+    url('../fonts/Lato/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Regular.eot');
+    src: local('☺'),
+    url('../fonts/Lato/Lato-Regular.woff') format('woff'),
+    url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Medium.eot');
+    src: local('☺'),
+    url('../fonts/Lato/Lato-Medium.woff') format('woff'),
+    url('../fonts/Lato/Lato-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Semibold.eot');
+    src: local('☺'),
+    url('../fonts/Lato/Lato-Semibold.woff') format('woff'),
+    url('../fonts/Lato/Lato-Semibold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Bold.eot');
+    src: local('☺'),
+    url('../fonts/Lato/Lato-Bold.woff') format('woff'),
+    url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Heavy.eot');
+    src: local('☺'),
+    url('../fonts/Lato/Lato-Heavy.woff') format('woff'),
+    url('../fonts/Lato/Lato-Heavy.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Black.eot');
+    src: local('☺'),
+    url('../fonts/Lato/Lato-Black.woff') format('woff'),
+    url('../fonts/Lato/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('../fonts/MyriadPro/MyriadProRegular.eot');
+    src: local('☺'),
+    url('../fonts/MyriadPro/MyriadProRegular.woff') format('woff'),
+    url('../fonts/MyriadPro/MyriadProRegular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}

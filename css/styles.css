@@ -1,0 +1,241 @@
+.html {
+    background-color: #fff;
+    font-family: Lato, sans-serif;
+}
+
+button:focus {
+    outline: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 183px;
+    height: fit-content;;
+    padding: 14px;
+    background-color: #dd3668;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.btn.btn--inverse {
+    background-color: white;
+    border: 2px solid #dd3668;
+    color: #7a7a7a;
+}
+
+.btn.btn--inverse:hover, .btn.btn--inverse:active, .btn.btn--inverse:focus {
+    color: #7a7a7a;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    color: #fff;
+}
+
+.header {
+
+}
+
+.header .container {
+    padding: 21px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    display: block;
+}
+
+.header .logo img {
+    width: 279px;
+    height: auto;
+}
+
+.header .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.header .navigation a {
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.header .navigation a:hover, a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+.header .btn {
+    margin-left: 20px;
+}
+
+.overview {
+    height: 562px;
+    background: url(../images/overviewBgs/1.jpg) center/cover no-repeat;
+}
+
+.overview .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+}
+
+.overview .title {
+    color: #a3a3a3;
+    font-family: "Myriad Pro";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+
+.overview .list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.overview .list .list-item {
+    opacity: 0.65;
+    color: #8e8e8e;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: capitalize;
+    padding: 0 7px;
+    border-right: 1px solid #8e8e8e;
+}
+
+.overview .list .list-item:first-child {
+    padding-left: 0;
+}
+
+.overview .list .list-item:last-child {
+    border-right: 0;
+}
+
+
+.features .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.features .title {
+    text-align: center;
+    color: #a3a3a3;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.features .list {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #dfdfdf;
+    margin-bottom: 82px;
+}
+
+.features .list .list-item {
+    border: 1px solid #dfdfdf;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 243px;
+}
+
+.features .list .list-item img {
+    height: 78px;
+    margin-bottom: 20px;
+}
+
+.features .list .list-item hr {
+    width: 38px;
+    border-top: 2px solid #dfdfdf;
+}
+
+.features .list .list-item p {
+    opacity: 0.65;
+    color: #5b5b5b;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.features .btn {
+    display: block;
+    margin: 0 auto;
+}
+
+.tools {
+    background-color: #f8f8fa;
+}
+
+.tools .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.tools .title {
+    color: #a3a3a3;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.tools .photo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.tools .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tools .desc * {
+    margin: 20px;
+}
+
+.tools .desc p {
+    opacity: 0.65;
+    color: #a3a3a3;
+    font-family: "Myriad Pro";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
