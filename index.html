@@ -2,9 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta id="MetaDescription" name="DESCRIPTION" content="Professional photographer platform. Portfolio website for photographers. Online photo sharing and photo websites." />
+    <meta id="MetaKeywords" name="KEYWORDS" content="photographers tools, photo portfolio, photographer portfolio, photographer cms, photo sharing, photo websites, photo sites, photo galleries, photo storage"/>
     <title>Folio set</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="modules/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="modules/slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -19,8 +23,51 @@
                 <a href="#">features</a>
                 <a href="#">about</a>
             </nav>
-            <button class="btn btn--inverse">login</button>
-            <button class="btn">sign up now</button>
+            <div class="modalBlock">
+                <button class="btn btn--inverse" id="openLoginModals">login</button>
+                <form class="modal" id="loginDialog" autocomplete="off" name="loginDialog" action="#" method="POST" style="display:none">
+                    <img src="images/SVG/cancel.svg" alt="close btn" class="closeBtn" id="closeLoginModals">
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <button type="submit" class="btn">login</button>
+                    <div class="modal__or">
+                        <hr>
+                        <span>or</span>
+                        <hr>
+                    </div>
+                    <button type="button" class="btn btn--social btn--google">
+                        <img src="images/social/gplus_icon.png" alt="g+">
+                        <span>sign up with google</span>
+                    </button>
+                    <button type="button" class="btn btn--social btn--yahoo">
+                        <img src="images/social/yahoo_icon.png" alt="yahoo">
+                        <span>sign up with yahoo</span>
+                    </button>
+                </form>
+            </div>
+            <div class="modalBlock">
+                <button class="btn" id="openRegisterModals">sign up now</button>
+                <form class="modal" id="registerDialog" autocomplete="off" name="registerDialog" action="#" method="POST" style="display:none">
+                    <img src="images/SVG/cancel.svg" alt="close btn" class="closeBtn" id="closeRegisterModals">
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="password" name="confirm" placeholder="Confirm Password" required>
+                    <button type="submit" class="btn">sign up</button>
+                    <div class="modal__or">
+                        <hr>
+                        <span>or</span>
+                        <hr>
+                    </div>
+                    <button type="button" class="btn btn--social btn--google">
+                        <img src="images/social/gplus_icon.png" alt="g+">
+                        <span>sign up with google</span>
+                    </button>
+                    <button type="button" class="btn btn--social btn--yahoo">
+                        <img src="images/social/yahoo_icon.png" alt="yahoo">
+                        <span>sign up with yahoo</span>
+                    </button>
+                </form>
+            </div>
         </div>
     </header>
     <main>
@@ -113,6 +160,23 @@
         <section class="examples">
             <div class="container">
                 <h2 class="title">loved by photographers everywhere</h2>
+                <div class="slickSlider">
+                    <div class="slide">
+                        <img src="images/sliderExamples/1.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="images/sliderExamples/2.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="images/sliderExamples/3.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="images/sliderExamples/1.jpg">
+                    </div>
+                    <div class="slide">
+                        <img src="images/sliderExamples/3.jpg">
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -160,7 +224,7 @@
                 <form class="col-7 callbackForm" autocomplete="off" name="callback" action="#" method="POST">
                     <h3 class="callbackForm__title">For further information:</h3>
                     <p class="callbackForm__txt">Do not hesitate to send us an e-mail for any information request, partnership or if you are interested in our cloud migration offerings in Montreal.</p>
-                    <input type="text" autofocus name="name" placeholder="Name" required>
+                    <input type="text" name="name" placeholder="Name" required>
                     <input type="email" name="email" placeholder="Email" required>
                     <input type="text" name="phone" placeholder="Phone" required>
                     <textarea name="message" placeholder="Message" rows="3"></textarea>
@@ -228,6 +292,9 @@
             </section>
         </div>
     </footer>
+    <script src="modules/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="modules/slick/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
 
