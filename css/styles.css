@@ -13,7 +13,7 @@ button:focus {
     justify-content: center;
     width: 183px;
     height: fit-content;;
-    padding: 14px;
+    padding: 19px;
     background-color: #dd3668;
     border: none;
     border-radius: 0;
@@ -23,7 +23,6 @@ button:focus {
     font-family: Lato;
     font-size: 14px;
     font-weight: 700;
-    flex-shrink: 0;
     line-height: 1;
 }
 
@@ -238,4 +237,270 @@ button:focus {
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.examples .title{
+    color: #a3a3a3;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 56px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.constructor {
+    background-color: #f8f8fa;
+    position: relative;
+}
+
+.constructor::before {
+    content: " ";
+    background: url(../images/constructorBG.png) center/cover no-repeat;
+    z-index: 1;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.constructor .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.constructor .title {
+    color: #a3a3a3;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.constructor .btn {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.constructor .note {
+    opacity: 0.65;
+    color: #5b5b5b;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f0f0f0;
+}
+
+.footer .container {
+    padding: 48px 0 10px;
+}
+
+.footer .container > * {
+    margin-bottom: 82px;
+}
+
+.footer .searchUs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .searchUs .logo {
+    height: auto;
+    width: 279px;
+    display: block;
+}
+
+.footer .searchUs .social {
+    list-style: none;
+    padding: 0 40px;
+    margin: 0;
+    border-left: 2px solid #a4a4a4;
+}
+
+.footer .social .socialLink {
+    margin: 0 12px;
+}
+
+.footer .social .socialLink:hover {
+    text-decoration: none;
+}
+
+.footer .social .socialLink img {
+    width: 31px;
+    height: 31px;
+}
+
+.footer .searchPhoto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer .signature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .signature .copyright {
+    color: #9a9a9a;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.footer .signature .link a {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #dd3668;
+    padding: 0 5px;
+    border-right: 1px solid #b9b9b9;
+}
+
+.footer .signature .link:last-child a {
+    border-right: 0;
+}
+
+.footer .signature-doc, .signature-int-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .signature-int {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .signature-int > span {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #8f8f8f;
+}
+
+.footer .callbackForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.callbackForm  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.callbackForm .callbackForm__title {
+    width: 100%;
+    color: #a3a3a3;
+    font-family: "Myriad Pro";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.callbackForm .callbackForm__txt {
+    width: 100%;
+    color: #9a9a9a;
+    font-family: "Myriad Pro";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 27px;
+}
+
+.callbackForm input {
+    width: calc(100%/3 - 22px);
+    border: 1px solid #d0d0d0;
+    margin-bottom: 27px;
+    padding: 15px 27px;
+    //text-indent: 12px;
+}
+
+.callbackForm textarea {
+    width: 100%;
+    border: 1px solid #d0d0d0;
+    margin-bottom: 27px;
+    padding: 15px 27px;
+    //text-indent: 12px;
+    resize: none;
+}
+
+.callbackForm .btn:last-child {
+    margin: 0 auto 0 25px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contacts .contact {
+    margin-bottom: 20px;
+}
+
+.contacts .contact .title {
+    color: #a3a3a3;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.contacts .contact .body {
+    color: #9a9a9a;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.contacts .download {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.contacts .download .title {
+    color: #9a9a9a;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.contacts .download .link {
+    color: #dd3668;
+    font-weight: 700;
 }
